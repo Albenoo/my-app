@@ -1,0 +1,35 @@
+.wrapper {
+    width:100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color: whitesmoke;
+    color:black;
+}
+
+.wrapper .text {
+    color:black;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+b {
+    color:white;
+    background-color: #0038ca;
+    padding: 15px 15px;
+    font-size: 30px;
+    text-align:center;
+    display: flex;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    
+}

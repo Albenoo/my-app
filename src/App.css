@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Appbox {
+  background-color: #0038ca;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
   color: white;
+  min-height: 91.1vh;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.Appbox .row {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Appbox .img1 {
+  width: 500px;
+  background-color: none;
+  min-height: 60vh;
+  margin: 20px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 30px;
+
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Appbox .cta {
+  padding: 15px 20px;
+  background-color: #232324;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin: 30px 0;
+}
+
+.Appbox .img2 {
+  width: 500px;
+  background-image: url(https://svgur.com/i/QSC.svg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  align-items: center;
+  margin: 20px;
+  padding: 0 30px;
+
+  justify-content: center;
+  flex-direction: row;
 }
